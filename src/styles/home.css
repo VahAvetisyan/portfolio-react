@@ -1,0 +1,52 @@
+div{
+  height: 100vh;
+  overflow: hidden;
+}
+
+#home{
+  background-color: rgb(10,25,47 );
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 150px;
+}
+
+#info{
+  color: white;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#info h1{
+  font-size: 50px;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+#info h5{
+  font-size: 16px;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+#info button{
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  margin-right: 20px;
+  border: none; 
+  border-radius: 7px;
+  background-color: rgb(14, 31, 56);
+  color: white;
+}
+
+#info button:hover{
+  cursor: pointer;
+    background-color: rgb(24, 47, 82);
+}
+
+#photo img{
+  height: 600px;
+}

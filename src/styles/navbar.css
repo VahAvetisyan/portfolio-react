@@ -1,0 +1,24 @@
+#navbar{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(10,25,47 );
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-items{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-right: 20px;
+    border: none; 
+    border-radius: 7px;
+    background-color: rgb(14, 31, 56);
+    color: white;
+}
+
+.navbar-items:hover{
+    cursor: pointer;
+    background-color: rgb(24, 47, 82);
+}

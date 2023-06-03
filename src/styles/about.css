@@ -1,0 +1,25 @@
+#about-component{
+  background-color: rgb(10,25,47 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about{
+  width: 60vw;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.253);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+#about h3{
+  color: white;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}

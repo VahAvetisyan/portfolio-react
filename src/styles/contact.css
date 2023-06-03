@@ -1,0 +1,43 @@
+.container{
+  background-color: rgb(10,25,47 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container *{
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.--text-center{
+  color: white;
+}
+
+.--form-control{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.--form-control input{
+  height: 40px;
+  padding-left: 10px;
+  width: 200px;
+}
+
+.--form-control textarea{
+  width: 400px;
+}
+.--btn{
+  height: 40px;
+  width: 150px;
+}
+
+.--btn:hover{
+  cursor: pointer;
+  background-color: rgb(26, 161, 26);
+}
