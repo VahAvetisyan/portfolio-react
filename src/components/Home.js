@@ -10,7 +10,6 @@ export default function Home() {
         I'm a Web Front-End Developer 
         </h1>
         <h5>Currently, I love to work on web application using technologies like HTML, CSS, JS and React JS.</h5>
-        <a href='about'><button>About Me</button></a>
       </div>
       <div id='photo'>
         <img src={me} alt='avatar'/>
