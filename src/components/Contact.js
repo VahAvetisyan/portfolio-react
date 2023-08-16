@@ -1,34 +1,20 @@
-import {useRef} from "react";
-import emailjs from '@emailjs/browser';
-
 import "../styles/contact.css";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Contact() {
-const form = useRef()
 
-const sendEmail = (e) => {
-  e.preventDefault();
-
-  emailjs.sendForm('service_f868svh', 'template_9rvag25', form.current, 'Vh2AwoXo9qxKJ979u')
-    .then((result) => {
-        console.log(result.text);
-    }, (error) => {
-        console.log(error.text);
-    });
-};
 
   return (
-    <section>
-      <div className="container">
-        <h2 className="--text-center">Contact</h2>
-        <form ref={form}  onSubmit={sendEmail} className="--form-control --card --flex-center --dir-column">
-          <input type="text" placeholder="Full Name" name="user_name" required/>
-          <input type="email" placeholder="Email" name="user_email" required/>
-          <input type="text" placeholder="Subject" name="message_subject" required/>
-          <textarea name="message" cols={30} rows={10}></textarea>
-          <button type="submit" className="--btn --btn-primary">Send Message</button>
-        </form>
-      </div>
-    </section>
+    <div className="container">
+      {/* <div><a href='tel:+37455990103'>(+374) 55 99 01 03</a></div>
+      <div><a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNsvTrfGGjtGSvsJgNdcxtwcBQvxHdSRwQrxZdLBMPnvkBmCVkblwFTsCpsftrZkTkPXlq'>vahan.avetisyan.ait@gmail.com</a></div> */}
+      <div id="instagram"><a href="https://www.instagram.com/vah_avetisian/" target="_blank"><InstagramIcon /></a></div>
+      <div id="facebook"><a href="https://www.facebook.com/vah.avetisian" target="_blank"><FacebookIcon /></a></div>
+      <div id="linkedin"><a href="https://www.linkedin.com/in/vah-avetisyan-3366a7262/" target="_blank"><LinkedInIcon /></a></div>
+      <div id="github"><a href="https://github.com/VahAvetisyan" target="_blank"><GitHubIcon /></a></div>
+    </div>
   );
 }
