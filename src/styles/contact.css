@@ -2,7 +2,9 @@
   background-color: rgb(10,25,47 );
   display: flex;
   justify-content: center;
-  color: white;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container div{

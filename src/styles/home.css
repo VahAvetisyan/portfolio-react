@@ -1,14 +1,10 @@
-div{
-  height: 100vh;
-  overflow: hidden;
-}
-
 #home{
   background-color: rgb(10,25,47 );
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 150px;
+  align-items: center;
+  height: 100vh;
 }
 
 #info{

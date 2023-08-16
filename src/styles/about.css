@@ -1,8 +1,11 @@
 #about-component{
-  background-color: rgb(10,25,47 );
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: rgb(10,25,47 );
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+  
 }
 
 #about{
