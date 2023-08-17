@@ -1,15 +1,27 @@
-.container{
+#contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: rgb(10,25,47 );
+}
+
+#contacts p{
+  font-size: 24px;
+  color: white;
+}
+
+.socials{
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.container div{
+.socials button{
   margin: 10px;
-  border: 2px solid white;
+  border: 2px solid rgba(0, 0, 0, 0.247);
   border-radius: 5px;
   width: 50px;
   height: 50px;
@@ -19,21 +31,25 @@
   align-items: center;
 }
 
-.container a{
-  color: white;
-}
-
 #instagram:hover{
   background-color: rgb(247, 90, 0);
+  color: white;
+  box-shadow: 3px 4px 8px rgb(0, 0, 0);
 }
 
 #facebook:hover{
   background-color: rgb(66 , 103, 178);
+  box-shadow: 3px 4px 8px black;
+  color: white;
 }
 #linkedin:hover{
   background-color:  rgb(40, 83, 168);
+  box-shadow: 3px 4px 8px black;
+  color: white;
 }
 #github:hover{
   background-color: rgb(44, 44, 44);
+  box-shadow: 3px 4px 8px black;
+  color: white;
 }
 

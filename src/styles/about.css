@@ -21,8 +21,38 @@
 
 
 
-#about h2{
+#about p{
   color: white;
   text-align: center;
+  font-size: 24px;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+@media (max-width: 768px) {
+  #about-component{
+    background-color: rgb(10,25,47 );
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+  
+}
+
+#about{
+  width: 90%;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.253);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+}
+
+
+
+#about p{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
 }
